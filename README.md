@@ -27,7 +27,7 @@
 
 ## room_users テーブル
 
-| Column  | Type    | Options                        |
+| Column  | Type    | Options     |
 | ------- | ------- | ------------------------------ |
 | user_id | references | null: false, foreign_key: true |
 | room_id | references | null: false, foreign_key: true |
@@ -49,3 +49,4 @@
 
 - belongs_to :room
 - belongs_to :user
+
